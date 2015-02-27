@@ -2722,7 +2722,7 @@ function jht_template_redir_check() {
 		unset($_SESSION['jht_onmdir']);
 	}
 }
-add_action('wp', 'jht_template_redir_check');
+//add_action('wp', 'jht_template_redir_check');
 
 
 function nlkTwitterRelativeTime($t) {
