@@ -119,7 +119,7 @@ global $post;
 	                    <li><a href="<?php echo get_bloginfo('url'); ?>/4-person-hot-tubs/" id="45People">4-5 People</a></li>
 	                    <li><a href="<?php echo get_bloginfo('url'); ?>/3-person-hot-tub/" id="3Person">3 Person</a></li>
 	                    <li><a href="<?php echo get_bloginfo('url'); ?>/best-selling-hot-tubs/" id="BestSelling">Best Selling</a></li>
-	                    <li><a href="http://staging.jacuzzihottubs.ca/collections/" id="Collections">Collections</a>
+	                    <li><a href="<?php echo get_bloginfo('url'); ?>/collections/" id="Collections">Collections</a>
 	                    	<ul>
 	                    		<li><a href="<?php echo get_bloginfo('url'); ?>/j-400/" id="J400">J-400</a></li>
 	                    		<li><a href="<?php echo get_bloginfo('url'); ?>/j-300/" id="J300">J-300</a></li>

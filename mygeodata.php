@@ -7,7 +7,7 @@ function geo_data_mysql( $ip ) {
 	if ( $ip == '127.0.0.1' )
 		return 'IP 127.0.0.1 not available in database';
 
-	$LIVEHOST		= array( 'www.jacuzzihottubs.com', 'www.jacuzzihottubs.ca', 'beta.jacuzzihottubs.com' );
+	$LIVEHOST		= array( 'www.jacuzzi.com', 'www.jacuzzi.ca', 'beta.jacuzzi.com' );
 	if ( !in_array( $_SERVER['SERVER_NAME'], $LIVEHOST ) ) {
 		// local
 		$mysqli = new mysqli("localhost", "root", "", "nlk_geoip");

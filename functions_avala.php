@@ -31,7 +31,7 @@
 	define( 'LIVEAPI', 'http://jacuzzi.aimbase.com/formbuilder/api/lead' );
 	define( 'TESTAPI', 'http://jacuzziqa.aimbase.com/formbuilder/api/lead' );
 
-	$LIVEHOST = array( 'www.jacuzzihottubs.com', 'www.jacuzzihottubs.ca' );
+	$LIVEHOST = array( 'www.jacuzzi.com', 'www.jacuzzi.ca' );
 	$TESTHOST = array( 'beta.jacuzzihottubs.com', 'jht.ninthlink.me', 'local.jht' );
 
 	$BETAHOST = array( 'beta.jacuzzihottubs.com' );
